@@ -1,7 +1,14 @@
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      main
-    </main>
+    <div>
+      <Header />
+      <main className="min-h-[60vh] border rounded mx-4 lg:max-w-5xl xl:max-w-7xl w-auto my-4 md:mx-auto p-4 grid place-content-center bg-gray-50">
+        Main Section
+      </main>
+      <Footer />
+    </div>
   );
 }
